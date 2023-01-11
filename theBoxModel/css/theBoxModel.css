@@ -1,5 +1,5 @@
 #main{
-    background-color: #add7e6;
+    background-color: lavender;
     margin: 50px 30px;
     padding: 50px 20px;
 }
@@ -9,10 +9,20 @@
 }
 
 #content{
-    background-color:azure;
-    border: 5px solid blue;
+    color: white;
+    background-color:#6b5acd;
+    border: 5px solid darkblue;
     padding: 20px;
+    margin: 20px 0;
 
+}
+
+#content div{
+    padding:5px;
+}
+
+#content .quote{
+    margin-left: 36px;
 }
 
 .quoteContent{
@@ -22,7 +32,7 @@
 
 .quoteCitation{
     margin: 5px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 #footer{
