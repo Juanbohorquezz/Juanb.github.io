@@ -1,0 +1,30 @@
+#main{
+    background-color: #add7e6;
+    margin: 50px 30px;
+    padding: 50px 20px;
+}
+
+#intro{
+    padding-bottom: 20px;
+}
+
+#content{
+    background-color:azure;
+    border: 5px solid blue;
+    padding: 20px;
+
+}
+
+.quoteContent{
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.quoteCitation{
+    margin: 5px;
+    padding-left: 30px;
+}
+
+#footer{
+    padding-top: 20px;
+}
