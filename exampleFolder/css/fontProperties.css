@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+#p1{
+    color: red;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+#p2{
+    color: #757510;
+}
+
+#p3{
+    color: rgb(280,0,255,);
+}
+
+#p4{
+    font-weight: bold;
+}
+
+#p5{
+    font-style: italic;
+    text-decoration: line-through blue;
+}
+
+#p6{
+    text-decoration: underline violet;
+}

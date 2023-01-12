@@ -1,0 +1,19 @@
+img{
+    width: 200px;
+    float:right;
+    
+}
+
+#Cover{
+    float: right;
+    font-size: small;
+}
+
+#main{
+    background-color: lightblue;
+    padding: 5px;
+    border: 2px solid grey;
+    margin: 50px 30px;
+    float: left;
+
+}

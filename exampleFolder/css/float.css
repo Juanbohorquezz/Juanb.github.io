@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    float: right;
+    margin: 24px;
+}
+
+p{
+    background-color: tan;
+}
+
+#clear{
+    clear: both;
+}
