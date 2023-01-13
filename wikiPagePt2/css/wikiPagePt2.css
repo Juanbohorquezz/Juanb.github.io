@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 img{
     width: 200px;
     float:right;
@@ -7,13 +9,45 @@ img{
 #Cover{
     float: right;
     font-size: small;
+    margin-bottom: 20px;
 }
 
-#main{
-    background-color: lightblue;
-    padding: 5px;
+#Content{
+    background-color: lightgrey;
+    padding: 15px;
     border: 2px solid grey;
-    margin: 50px 30px;
+    margin-right: 300px;
     float: left;
 
+}
+
+#Dracula{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#SubH4{
+    font-weight:normal;
+    font-family: 'Montserrat';
+}
+
+img{
+    float: right;
+    width: 200px;
+}
+
+#Vlad{
+    font-size: small;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#TextualHistory{
+    font-weight: lighter;
+}
+
+#sidebar{
+    
+    border: 2px solid grey;
+    padding: 10px;
 }
