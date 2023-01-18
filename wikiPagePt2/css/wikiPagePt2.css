@@ -49,7 +49,7 @@ img{
     font-weight: lighter;
 }
 
-#sideBar{
+#Sidebar{
     
     border: 2px solid grey;
     padding: 10px;
@@ -84,3 +84,27 @@ li{
 color{
     color: rgb(66, 81, 245);
 }
+
+#sidebar {
+    background-color: rgba(210, 244, 243, 0.236);
+    float: right;
+    font-size: small;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.sideBySide {
+    display: flex;
+    margin: 8px;
+}
+
+.sideBySide span {
+    text-align: left;
+}
+
+.sideBySide span:first-child {
+    font-weight: bold;
+    width: 100px;
+}
+
