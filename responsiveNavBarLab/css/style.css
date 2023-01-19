@@ -1,0 +1,66 @@
+nav {
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav > ul > li {
+    padding: 12px;
+    background-color: black;
+}
+
+nav > ul > li:first-child {
+    margin-right: auto;
+}
+
+nav > ul > li a:hover{
+    background-color: rgb(69, 63, 63);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown ul {
+    display: none;
+    list-style-type: none;
+    padding: 0px;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+
+.dropdown ul li {
+    background-color: black;
+    padding: 12px;
+    width: 150px;
+}
+
+.dropdown:hover ul {
+    display: flex;
+}
+
+main img {
+    width: 100%;
+}
+
+a img {
+    width: 150px;
+}
+
+
+
+
+
+

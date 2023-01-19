@@ -33,3 +33,7 @@ li a {
         margin-right: inherit;
     }
 }
+
+.hr{
+    border-bottom: 2px solid grey;
+}
