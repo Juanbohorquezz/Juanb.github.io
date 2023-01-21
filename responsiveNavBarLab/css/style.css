@@ -129,6 +129,11 @@ a img {
     
 }
 
+section div a {
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (max-width:768px) {
     nav > ul {
         flex-direction: column;
