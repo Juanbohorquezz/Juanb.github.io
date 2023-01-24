@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+thead tr {
+    background-color: pink;
+    text-align: center;
+    border: 1px solid lightgray;
+
+}
+
+tbody td {
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+thead tr:first-child th {
+    padding: 24px;
+    font-size: 48px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+thead tr:last-child th {
+    padding: 8px;
+    width: 1px;
+    vertical-align: top;
+}
+
+.otherMonth {
+    background-color: rgb(242, 240, 240);
+    color: #cccccc;
+}
+
+tbody tr:hover {
+    color: pink;
+}
+
