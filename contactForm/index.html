@@ -15,13 +15,21 @@
             </header>
             <div id="formContainer">
                 <form>
+                    <label>What can we help you with?</label>
+                    <select name="questionType">
+                        <option value="" disabled selected>-Select what we can help you with-</option>
+                        <option value="comission">Comission</option>
+                        <option value="carWarranty">Want to extent your cars warranty</option>
+                        <option value="websiteDesign">Website Design</option>
+                        <option value="adRemoval">Need a break from ads</option>
+                    </select>
                     <label>Name</label>
-                    <imput type="text" name="name">
+                    <input type="text" name="name">
                     <label>Email</label>
-                    <imput type="text" name="email">
+                    <input type="text" name="email">
                     <label>Message</label>
-                    <textarea name="message">Type your message here...</textarea>
-                    <imput type="submit" name="send" value="Send">
+                    <textarea name="message" placeholder="Type your message here...">Type your message here...</textarea>
+                    <input type="submit" name="send" value="Send">
                 </form>
             </div>
         </section>
