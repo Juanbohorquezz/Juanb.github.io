@@ -17,27 +17,40 @@
                 <form 
                     action="https://getform.io/f/1555cea5-0a84-48ad-b581-020b45847a51"
                     method="POST">
-                    <label>What can we help you with?</label>
-                    <select name="questionType">
-                        <option value="" disabled selected>-Select what we can help you with-</option>
-                        <option value="comission">Comission</option>
-                        <option value="carWarranty">Want to extent your cars warranty</option>
-                        <option value="websiteDesign">Website Design</option>
-                        <option value="adRemoval">Need a break from ads</option>
-                    </select>
-                    <label>Name</label>
-                    <input 
-                        type="text" 
-                        name="name" 
-                        minlength="3" 
-                        maxlength="50" 
-                        required
-                        placeholder="First and Last Name">
-                    <label>Email</label>
-                    <input type="text" name="email" required placeholder="Email" minlength="2" maxlength="50">
-                    <label>Message</label>
-                    <textarea name="message" placeholder="Type your message here...">Type your message here...</textarea>
-                    <input type="submit" name="send" value="Send">
+                    <fieldset>
+                        <!-- <div>
+                            <legend>Text Fields</legend>
+                        </div> -->
+                        <label>What can we help you with?</label>
+                        <select name="questionType">
+                            <option value="" disabled selected>-Select what we can help you with-</option>
+                            <option value="comission">Comission</option>
+                            <option value="carWarranty">Want to extent your cars warranty</option>
+                            <option value="websiteDesign">Website Design</option>
+                            <option value="adRemoval">Need a break from ads</option>
+                        </select>
+                        <label>Name</label>
+                        <input 
+                            type="text" 
+                            name="name" 
+                            minlength="3" 
+                            maxlength="50" 
+                            required
+                            placeholder="First and Last Name">
+                        <label>Email</label>
+                        <input 
+                            type="email" 
+                            name="email" 
+                            required 
+                            placeholder="Email" 
+                            minlength="3" maxlength="50">
+                    
+                        <label>Message</label>
+                        <textarea name="message" placeholder="Type your message here...">Type your message here...</textarea>
+                    </fieldset>
+                    <div>
+                        <input type="submit" name="send" value="Send">
+                    </div>
                 </form>
             </div>
         </section>
