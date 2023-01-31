@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+#hero1 {
+    background-image: url("../assets/images/pexels-ian-beckley-2440079.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: filter 0.5s;
+}
+
+#hero1:hover {
+    filter: blur(2px);
+}
+
+#hero1 h1 {
+    /* position: absolute;
+    top: 60px;
+    left: 60px; */
+    color: white;
+    font-size: 50px;
+    
+    
+}
+
+p {
+    font-size: 25px;
+    margin: 48px;
+}
+
+#hero2 {
+    height: 100vh;
+    background-image: url("../assets/images/pexels-nugroho-wahyu-3097112.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#hero2 h2 {
+    font-size: 50px;
+}
+
+#hero2 h3 {
+    font-size: 25px;
+}
+
+#hero3 {
+    background-size: cover;
+    background-image: url("../assets/images/pexels-ricardo-esquivel-1964471.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+#hero3 h2 {
+    padding-top: 60px;
+}
+
+#hero3 h3 {
+    padding-bottom: 60px;
+}
