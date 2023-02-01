@@ -54,6 +54,12 @@ footer ul {
   padding: 0;
 }
 
+.glider {
+  background-image: url("../assets/images/abstractBackground.jpg");
+  background-attachment: fixed;
+  height: 600px;
+}
+
 /****************************************************************************
   Grid styles
 ****************************************************************************/
