@@ -17,3 +17,7 @@
     color: rgb(255, 255, 255);
 }
 
+li a {
+    text-decoration: none;
+    color: black;
+}
