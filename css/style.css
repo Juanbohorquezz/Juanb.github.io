@@ -1,9 +1,19 @@
 #hero {
-    background-image: url(../assets/images/Print_Web_ad_V2_pt2.jpg);
+    background-image: url(../assets/images/Mockup_Exercise_part\ 1.jpg);
+    background-size: 500px;
     background-attachment: fixed;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
     text-align: center;
+    justify-content: center;
+    display: flex;
     
 }
+
+#hero h1 {
+    padding-top: 100px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
