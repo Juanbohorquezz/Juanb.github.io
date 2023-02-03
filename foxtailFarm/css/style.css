@@ -1,6 +1,8 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Secular+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /*****************************************************************************
   Heading, Link, and Misc. Styles
 *****************************************************************************/
@@ -8,15 +10,15 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   margin: 0;
 }
 
 h1,
-h2,
-h3,
-a {
-  font-family: 'Secular One', sans-serif;
+h2,h3 {
+  font-family: 'Lobster';
 }
 
 h4,
@@ -31,6 +33,11 @@ h1 {
 
 h3 {
   text-align: center;
+}
+
+h5 {
+  font-family: 'Lobster';
+  font-size: 50px;
 }
 
 h4 {
@@ -94,6 +101,10 @@ footer {
 /****************************************************************************
   Nav/Footer styles
 ****************************************************************************/
+nav h2 img {
+  width: 150px;
+}
+
 nav {
   align-items: center;
   display: flex;
@@ -162,6 +173,7 @@ nav h2 {
   text-align: center;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 #hero h1 {
@@ -230,7 +242,7 @@ div a {
 }
 
 .flashicard3 {
-  background-image: url("../assets/images/pexels-tomÃ¡Å¡-malÃ­k-4934920.jpg");
+  background-image: url("../assets/images/fox3.jpg");
   background-position: center center;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -268,6 +280,10 @@ div a {
   text-align: center;
   box-shadow: 4px 4px 8px 0px grey;
   flex: 1;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card p {
@@ -285,9 +301,11 @@ div a {
 /****************************************************************************
   Carousel Styles
 ****************************************************************************/
-#carousel {
+#carouselExampleCaptions {
   text-align: center;
+  box-shadow: 4px 4px 8px 0px grey;
 }
+
 
 /****************************************************************************
   Media Query - Mobile Breakpoint
