@@ -21,3 +21,12 @@ li a {
     text-decoration: none;
     color: black;
 }
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+a h5 {
+    color: white;
+}
