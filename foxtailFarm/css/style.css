@@ -11,6 +11,16 @@
 }
 
 
+div h2 {
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+div p {
+  padding: 24px;
+  
+}
 
 body {
   margin: 0;
@@ -187,6 +197,16 @@ nav h2 {
   color: white;
 }
 
+.flexbox img {
+  border-radius: 25px;
+}
+
+.flexbox {
+  display: flex;
+  height: 300px;
+  margin: 100px;
+  
+}
 
 /****************************************************************************
   Link styles
@@ -194,7 +214,7 @@ nav h2 {
 
 #hero a,
 .card a {
-  /* background-color: white; */
+  background-color:#e1a177;
   color: rgb(255, 255, 255);
   border: 2px solid #e1a177;
   border-radius: 24px;
@@ -234,7 +254,8 @@ div a {
 }
 
 .flashicard4 {
-  background-image: url("../assets/images/depositphotos_34452473-stock-photo-red-fox-cub\ copy.jpg");
+  /* text-shadow: 0px 0px 2px black; */
+  background-image: url("../assets/images/foxfarm.jpg");
   background-position: center center;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -261,7 +282,7 @@ div a {
 .flashicard3:hover,
 .flashicard4:hover,
 .flashicard5:hover {
-  filter: blur(0.75px);
+  filter: blur(0.55px);
 }
 
 .flashicard {
@@ -306,6 +327,18 @@ div a {
   box-shadow: 4px 4px 8px 0px grey;
 }
 
+.market h3 {
+  margin-top: 50px;
+}
+
+.coffee {
+  margin:50px;
+}
+
+#carouselExampleAutoplaying {
+  text-align: center;
+  box-shadow: 4px 4px 8px 0px grey;
+}
 
 /****************************************************************************
   Media Query - Mobile Breakpoint
@@ -330,5 +363,9 @@ div a {
   nav ul {
     margin: 4px 0;
   }
+
+  /* .flexbox{
+    flex-direction: column;
+  } */
 
 }
