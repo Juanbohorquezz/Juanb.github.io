@@ -3,7 +3,7 @@ body {
 }
 #hero {
     color: white;
-    box-shadow: grey 4px 4px 4px 4px;
+    text-shadow: purple 4px 4px 4px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
