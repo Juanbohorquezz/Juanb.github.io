@@ -3,13 +3,51 @@
   horizontal masonry gallery, and also restrict its width to 800px (100% max),
   in addition to centering it on the page.
 */
-#gallery {
+#gallery1 {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 350px;
   max-width: 100%;
   margin: 0 auto;
+  padding: 12px;
 }
+
+#gallery2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#gallery3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#gallery4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#gallery5 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
 
 /*
   Configure the gallery images to be sized based on height,
