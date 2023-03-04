@@ -9,8 +9,8 @@ function openLightbox(){
     lightbox.src = this.src;
 }
 
-let gallery1 = document.getElementById ("gallery1");
-    gallery1.onclick = openLightbox;
+let galleryImage = document.getElementById ("galleryImage");
+galleryImage.onclick = openLightbox;
 
 function closeLightbox(){
     lightboxContainer.classList.remove("display");
@@ -20,70 +20,16 @@ function closeLightbox(){
 lightboxBackground.onclick = closeLightbox;
 lightboxCloser.onclick = closeLightbox;
 
-//gallery2
-function openLightbox(){
-    lightboxContainer.classList.add("display");
-    lightbox.src = this.src;
+let galleryImages = document.getElementsByClassName("galleryImage");
+
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox;
 }
 
-let gallery2 = document.getElementById ("gallery2");
-    gallery2.onclick = openLightbox;
+let closers = document.getElementsByClassName("closer");
 
-function closeLightbox(){
-    lightboxContainer.classList.remove("display");
-    lightbox.src = "" ;
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers[1];
+    closer.onclick = closeLightbox;
 }
-
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//gallery3
-function openLightbox(){
-    lightboxContainer.classList.add("display");
-    lightbox.src = this.src;
-}
-
-let gallery3 = document.getElementById ("gallery3");
-    gallery3.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove("display");
-    lightbox.src = "" ;
-}
-
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//gallery4
-function openLightbox(){
-    lightboxContainer.classList.add("display");
-    lightbox.src = this.src;
-}
-
-let gallery4 = document.getElementById ("gallery4");
-    gallery4.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove("display");
-    lightbox.src = "" ;
-}
-
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//gallery5
-function openLightbox(){
-    lightboxContainer.classList.add("display");
-    lightbox.src = this.src;
-}
-
-let gallery5 = document.getElementById ("gallery5");
-    gallery5.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove("display");
-    lightbox.src = "" ;
-}
-
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;

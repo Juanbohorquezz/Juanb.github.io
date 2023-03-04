@@ -3,7 +3,7 @@
   horizontal masonry gallery, and also restrict its width to 800px (100% max),
   in addition to centering it on the page.
 */
-#gallery1 {
+#galleryImage {
   display: flex;
   flex-wrap: wrap;
   width: 350px;
