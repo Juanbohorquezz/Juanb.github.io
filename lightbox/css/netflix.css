@@ -1,8 +1,17 @@
+body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/dd2786e8-9d8a-4c59-a1fc-0f85cf5efda4/US-en-20230227-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
+    padding: 10px;
+
 }
 
 #new {
@@ -15,4 +24,47 @@
 
 #price {
     margin-right: 16px;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.headerWrap{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: white;
+}
+
+.button {
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+#signIn {
+    background-color: red;
+}
+
+#text {
+    color: white;
+    text-align: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+#emailForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    
 }
