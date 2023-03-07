@@ -54,7 +54,8 @@ body {
     color: white;
     text-align: center;
     align-items: center;
-
+    max-width: 500px;
+    margin: 0px auto;
     justify-items: center;
 }
 
