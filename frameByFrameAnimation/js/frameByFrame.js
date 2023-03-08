@@ -103,7 +103,7 @@ const camera = document.getElementById("camera");
 
 let cameraIndex = 0;
 
-function animate() {
+function cool() {
     camera.src = cameras[cameraIndex];
     cameraIndex++;
     if (cameraIndex >=  cameras.length) {
@@ -111,4 +111,4 @@ function animate() {
     }
 }
 
-setInterval(animate,100);
+setInterval(cool,100);
