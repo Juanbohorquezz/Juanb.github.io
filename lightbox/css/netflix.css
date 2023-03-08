@@ -1,18 +1,35 @@
-body {
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#hero {
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/dd2786e8-9d8a-4c59-a1fc-0f85cf5efda4/US-en-20230227-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     margin: 0px;
+    min-height: 500px;
+    box-shadow: inset 0px 0px 200px 75px black;
+    padding: 40px;
 }
 
 .banner {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: white;
-    padding: 10px;
+    align-items: center;
+    
 
+}
+
+.banner div {
+    display: inline-block;
+    margin: 12px;
+}
+
+.banner a {
+    text-decoration: none;
 }
 
 #new {
@@ -23,58 +40,72 @@ body {
     padding: 0.2rem 0.5rem;
 }
 
-#price {
-    margin-right: 16px;
-}
-
 #logo {
     width: 150px;
-    margin-left: 20px;
-    margin-top: 5px;
 }
 
 .headerWrap{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
     color: white;
 }
 
-.button {
-    display: flex;
-    margin-right: 20px;
-    
+.headerWrap img {
+    margin-right: auto;
+}
+
+#lenguage{
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 12px;
+    margin: 0px 24px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.signIn {
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
 }
 
 #signIn {
+    border: 1px solid red;
     background-color: red;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
 }
+
 
 #text {
     color: white;
     text-align: center;
     align-items: center;
-    max-width: 500px;
-    margin: 0px auto;
-    justify-items: center;
+    max-width: 640px;
+    margin: 100px auto;
 }
 
-#emailForm {
+#text h1 {
+    font-size: 60px;
+}
+
+#text h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+#text input[type="email"]{
+    height: 48px;
+    width: 500px;
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-#email {
-    color: black;
-    background-color: white;
-    padding: 5px;
-    padding-right: 50px;
-    
-}
-
-#button {
-    padding: 5px;
-    color: white;
-    background-color: red;
 }

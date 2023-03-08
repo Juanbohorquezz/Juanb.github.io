@@ -7,34 +7,37 @@
     <link rel="stylesheet" href="css/lightbox.css">
   </head>
   <body>
-    <container>
+    <div>
         <div class="banner">
           <div id="new">NEW!</div>
           <div id="price">Plans now start at <strong>$6.99</strong></div>
-          <div id="learnmore" href="">Learn More</div>
+          <div id="learnmore">
+            <a href="#">Learn More ></a>
+          </div>
         </div>
         <div id="hero">
         <div class="headerWrap">
                 <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="logo">
               <div class="button">  
-                <p>English</p>
-                <p id="signIn">Sign in</p>
+                <button id="lenguage">English</button>
+                <button id="signIn">Sign in</button>
               </div>
         </div>
         <div id="text">
               <h1>Unlimited movies, TV shows, and more</h1>
               <h2>Watch anywhere. Cancel anytime</h2>
               <p>This is not netflix , this is a portfolio design</p>
-              <div id="emailForm">
-                <p id="email">Email Address</p>
-                <p id="button">Get Started</p>
-              </div>
+              <form>
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="submit" class="signIn" value="Get started >">
+              </form>
+             
               <!-- <div>
                 <img src="https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/dd2786e8-9d8a-4c59-a1fc-0f85cf5efda4/US-en-20230227-popsignuptwoweeks-perspective_alpha_website_medium.jpg" alt="heroImage">
               </div> -->
         </div>
         </div>
-    </container>
+    </div>
     <!-- Gallery/Image Code -->
     <div id="gallery">
       <img class="galleryImage" src="images/carson-vara-_amPRbcKx-E-unsplash.jpg" alt="gallery">
