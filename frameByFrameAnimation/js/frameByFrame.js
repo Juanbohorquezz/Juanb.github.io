@@ -14,7 +14,7 @@ const heart = document.getElementById("heart");
 
 let frameIndex = 0;
 
-function animate() {
+function animateHeart() {
     heart.src = frames[frameIndex];
     frameIndex++;
     if (frameIndex >=  frames.length) {
@@ -22,7 +22,7 @@ function animate() {
     }
 }
 
-setInterval(animate,100);
+setInterval(animateHeart,100);
 
 
 //camera
@@ -103,7 +103,7 @@ const camera = document.getElementById("camera");
 
 let cameraIndex = 0;
 
-function cool() {
+function animateCamera() {
     camera.src = cameras[cameraIndex];
     cameraIndex++;
     if (cameraIndex >=  cameras.length) {
@@ -111,4 +111,4 @@ function cool() {
     }
 }
 
-setInterval(cool,100);
+setInterval(animateCamera,100);
