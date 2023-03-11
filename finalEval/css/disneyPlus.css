@@ -1,0 +1,200 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #040714;
+    color: white;
+}
+
+#logo {
+    width: 100px;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#navBar.spreadRestricted #logo {
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+#signUp {
+    font-size: 18px;
+    padding: 10px;
+    background-color:#0063e5;
+    color: white;
+    border: 1px solid #0063e5;
+    border-radius: 50px;
+}
+
+#logIn {
+    font-size: 18px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+}
+
+#logIn:hover {
+    background-color: #0063e5;
+    border: 1px solid #0063e5;
+}
+
+#hero {
+    background-image: url(../assets/images/backgroundLarge.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+#heroText {
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#heroText #streamingLogo {
+    width: 400px;
+}
+
+#streamingLogo1 {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.plans:hover {
+    text-decoration: underline;
+}
+
+
+#form input[type="email"]{
+    height: 38px;
+    width: 200px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+#form input[type="submit"] {
+    height: 40px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0063e5;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    justify-content:center;
+    font-family: sans-serif;
+}
+
+.heading h3 {
+    padding: 10px;
+}
+
+.heading1:hover,
+.heading2:hover,
+.heading3:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+#box {
+    margin: 8px;
+}
+
+#gallery1{
+    display: grid;
+}
+
+#gallery img {
+    width: 100%;
+}
+
+#gallery1.threeColumns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footerContent {
+    align-items: center;
+    text-align: center;
+}
+
+#logoFooter {
+    margin-top: 50px;
+    width: 80px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyRight {
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    #gallery1{
+        display: grid;
+    }
+    
+    #gallery img {
+        width: 100%;
+    }
+    
+    #gallery1.twoColumns {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #signUp {
+        font-size: 14px;
+        padding: 10px;
+        background-color:#0063e5;
+        color: white;
+        border: 1px solid #0063e5;
+        border-radius: 50px;
+    }
+    
+    #logIn {
+        font-size: 14px;
+        padding: 10px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 50px;
+    }
+
+    .heading {
+        display: flex;
+        justify-content:center;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+}

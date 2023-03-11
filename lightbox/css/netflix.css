@@ -114,3 +114,17 @@ body{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+    #text h1 {
+        font-size: 48px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    #text input[type="email"]{
+        width: 100%;
+    }
+}
