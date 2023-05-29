@@ -72,7 +72,7 @@ footer a:hover {
 }
 
 footer ul {
-  padding: 0;
+  padding: 50px;
 }
 
 /* .glider {
@@ -271,7 +271,7 @@ div a {
 }
 
 .flashicard2 {
-  background-image: url("../assets/images/pexels-yaroslav-shuraev-6889167.jpg");
+  background-image: url("../assets/images/priscilla-du-preez-I-zSrQnLlX0-unsplash.jpg");
   background-position: center center;
   background-size: cover;
   color: white;
@@ -282,11 +282,11 @@ div a {
 .flashicard3:hover,
 .flashicard4:hover,
 .flashicard5:hover {
-  filter: blur(0.55px);
+  filter: blur(0.35px);
 }
 
 .flashicard {
-  background-image: url("../assets/images/pexels-pixabay-158340.jpg");
+  background-image: url("../assets/images/karsten-wurth-lsJ9jHKIqHg-unsplash.jpg");
   background-size: cover;
   background-position: center center;
   color: white;
